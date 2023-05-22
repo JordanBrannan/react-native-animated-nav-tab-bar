@@ -22,7 +22,7 @@ import {
 interface TabBarElementProps {
   state: TabNavigationState<Record<string, object | undefined>>;
   navigation: any;
-  descriptors: Record<string, Descriptor<Record<string, object | undefined>, string, TabNavigationState<Record<string, object | undefined>>, any, {}>>;
+  descriptors: Record<string, Descriptor<any, any, any>>;
   appearance: IAppearanceOptions;
   tabBarOptions?: any;
   lazy?: boolean;
@@ -194,7 +194,7 @@ export default ({
    * @returns React.Node with the button component
    */
   const createTab = (
-    route: (Route<string> & { state?: NavigationState | PartialState<NavigationState> | undefined; }), 
+    route: (Route<string> & { state?: NavigationState | PartialState<NavigationState> | undefined; }),
     routeIndex: number
   ) => {
     const focused = routeIndex == state.index;
