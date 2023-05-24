@@ -84,7 +84,7 @@ export default (function (_a) {
     var animation = function (val) {
         return Animated.spring(val, {
             toValue: 1,
-            useNativeDriver: false,
+            useNativeDriver: true,
         });
     };
     /**
