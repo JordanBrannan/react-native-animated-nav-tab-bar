@@ -22,7 +22,7 @@ var __rest = (this && this.__rest) || function (s, e) {
 };
 import * as React from "react";
 import { Platform, StyleSheet, View } from "react-native";
-import { Screen, screensEnabled } from "react-native-screens";
+import { Screen, screensEnabled } from "@react-navigation/native-stack";
 /**
  * Originally from ResourceSavingScene.tsx react-navigation / bottom-tabs
  */
