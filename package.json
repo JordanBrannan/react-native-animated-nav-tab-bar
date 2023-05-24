@@ -60,8 +60,5 @@
     "@react-navigation/native": "^6.1.6",
     "react-native-screens": "^3.5.0",
     "styled-components": "^4.4.1"
-  },
-  "dependencies": {
-    "@react-navigation/native-stack": "^6.9.12"
   }
 }

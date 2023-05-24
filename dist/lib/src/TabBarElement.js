@@ -22,7 +22,7 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
 import { CommonActions } from "@react-navigation/native";
 import React, { useEffect, useState } from "react";
 import { Animated, BackHandler, Dimensions, I18nManager, Platform, StyleSheet, View } from "react-native";
-import { ScreenContainer } from "@react-navigation/native-stack";
+import { ScreenContainer } from "react-native-screens";
 import ResourceSavingScene from "./ResourceSavingScene";
 import { TabElementDisplayOptions } from "./types";
 import { BottomTabBarWrapper, Dot, Label, TabButton } from "./UIComponents";
