@@ -121,7 +121,7 @@ export default ({
   const animation = (val: Animated.Value) =>
     Animated.spring(val, {
       toValue: 1,
-      useNativeDriver: true,
+      useNativeDriver: false,
     });
 
   /**
